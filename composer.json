@@ -1,0 +1,27 @@
+{
+    "name" : "ivan-novakov/php-openssl-crypt",
+    "description" : "PHP OpenSSL Encryption Library",
+    "homepage" : "https://github.com/ivan-novakov/php-openssl-crypt",
+    "license" : "BSD-3-Clause",
+
+    "keywords" : [
+        "encryption", "decryption", "openssl", "ssl", "php"
+    ],
+
+    "authors" : [
+        {
+            "name" : "Ivan Novakov",
+            "homepage" : "http://novakov.cz/"
+        }
+    ],
+
+    "require" : {
+        "php" : ">=5.3.3"
+    },
+
+    "autoload" : {
+        "psr-0" : {
+            "InoSslCrypt\\" : "src/"
+        }
+    }
+}
